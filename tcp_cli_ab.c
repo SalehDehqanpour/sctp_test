@@ -1,6 +1,7 @@
 // purpose: comparing Apache Benchmark tool vs. this code against nginx web server
 // author: Dehqanpour
 //To compile: gcc -O2 tcp_cli_ab.c -lpthread
+//To Run: ./a.out <# of requests> <# of threads>
 //#include <stdlib.h>
 //#include <time.h>
 #include<stdio.h>
