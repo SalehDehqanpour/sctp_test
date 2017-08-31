@@ -2,6 +2,8 @@
 // Protocol Stack that is implemented : SCTP/M3UA/SCCP/TCAP/GSM_MAP
 // Hint: The identifiers which are in upper CASE are data types.(like SCCP_party_addr). The lower ones are objects.(like sccp_called)
 // To compile: gcc -O2 sctp_cli_p.c sctp_methods.c -lsctp -lpthread -o p.out
+// To run: ./p.out <your dest IP e.g. 172.17.0.10> <your dest port e.g. 2905> <number of total checkIMEI> <number of parallel threads>
+// for example: ./p.out 127.0.0.1 62324 10 2
 
 #include <stdio.h>
 #include <stdlib.h>
