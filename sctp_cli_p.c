@@ -13,7 +13,7 @@
 #include <netinet/sctp.h>
 #include <arpa/inet.h>
 #include <pthread.h>
-#include "timer.h"
+#include "timer.h"  // It has GET_TIME macro.
 #include "sctp_cli_p.h"
 
 uint16_t swap_uint16( uint16_t val ) 
