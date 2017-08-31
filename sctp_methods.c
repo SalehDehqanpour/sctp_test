@@ -75,7 +75,7 @@ void SCCP_Set(struct SCCP_hdr* sccp_header,struct SCCP_party_addr* sccp_called,s
    sccp_calling->global_title_addr = swap_uint16(0x1110);  //WARNING: reverse nibbles in each octet
 }
 
-void* handle_client(void* rank) {printf("\ndddlll");
+void* handle_client(void* rank) {
     unsigned char sctpPayload[MAX_BUFFER + 1]; //sctpPayload is payload of SCTP
     unsigned char sls;
     unsigned int threadNum = *(unsigned int*)rank;  //Thread number which is between 0 to (c-1)
