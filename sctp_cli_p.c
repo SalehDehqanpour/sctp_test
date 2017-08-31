@@ -63,12 +63,6 @@ int main (int argc, char* argv[])
     servaddr.sin_port = htons (MY_PORT_NUM);
     servaddr.sin_addr.s_addr = inet_addr (IP_dest);
 
-
-
-
-
-
-
     pthread_t* handles = (pthread_t*) malloc (c*sizeof(pthread_t));
     long j;
     GET_TIME(t1);
