@@ -1,4 +1,6 @@
-sctp_cli.c sctp_methods.c sctp_cli.h
+#My system has run into an unknown error which I can't enter into threads.(getting a 'segmentation fault').vSo I am not sure this codes have no errors.
+
+List of files: sctp_cli.c  sctp_methods.c  sctp_cli.h
 
 Protocol Stack that is implemented : SCTP/M3UA/SCCP/TCAP/GSM_MAP
 
