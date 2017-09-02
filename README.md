@@ -1,4 +1,3 @@
-#My system has run into an unknown problem which I can't enter into threads at runtime.(getting a 'segmentation fault').vSo I am not sure this codes have no errors. I am trying on another system and soon will find the solution.
 
 List of files: sctp_cli.c  sctp_methods.c  sctp_cli.h
 
